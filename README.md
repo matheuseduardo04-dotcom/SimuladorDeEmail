@@ -1,45 +1,47 @@
-# Email Simulator
+# Simulador de Email
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="60" height="60"/>
   &nbsp;&nbsp;
-  <img src="https://flagcdn.com/w80/us.png" alt="English (US)" width="60"/>
+  <img src="https://flagcdn.com/w80/us.png" alt="Inglês (EUA)" width="60"/>
 </p>
 
-A simple email simulator written in Python using Object-Oriented Programming. It models users, inboxes, and emails — allowing users to send, receive, read, and delete messages.
+Um simulador de email simples feito em Python utilizando Programação Orientada a Objetos. O projeto representa usuários, caixas de entrada e emails — permitindo enviar, receber, ler e excluir mensagens.
 
-## Features
+> O código foi escrito em inglês como prática do idioma.
 
-- Send emails between users
-- Receive emails in a personal inbox
-- List all emails with read/unread status
-- Open and display full email content
-- Automatically mark emails as read when opened
-- Delete emails from the inbox
-- Timestamp on every received email
+## Funcionalidades
 
-## Project Structure
+- Envio de emails entre usuários
+- Recebimento de emails em uma caixa de entrada pessoal
+- Listagem de emails com status de lido/não lido
+- Abertura e exibição do conteúdo completo do email
+- Marcação automática como lido ao abrir
+- Exclusão de emails da caixa de entrada
+- Registro de data e hora em cada email recebido
+
+## Estrutura do Projeto
 
 ```
 simuladordeemail/
 └── email.py
 ```
 
-The project is organized around three main classes:
+O projeto é organizado em torno de três classes principais:
 
-- **`Email`** — represents an individual email message (sender, receiver, subject, body, timestamp, read status).
-- **`Inbox`** — stores and manages a user's received emails.
-- **`User`** — represents a person who can send emails and access their inbox.
+- **`Email`** — representa uma mensagem de email (remetente, destinatário, assunto, corpo, data/hora e status de leitura).
+- **`Inbox`** — armazena e gerencia os emails recebidos por um usuário.
+- **`User`** — representa uma pessoa que pode enviar emails e acessar sua caixa de entrada.
 
-## How to Run
+## Como Executar
 
-Requirements: **Python 3.x**
+Requisitos: **Python 3.x**
 
 ```bash
 python email.py
 ```
 
-## Example Output
+## Exemplo de Saída
 
 ```
 Email sent from Tory to Ramy!
@@ -59,6 +61,6 @@ Body: Hi Ramy, just saying hello!
 ------------
 ```
 
-## Author
+## Autor
 
-Developed by **Matheus** as part of programming logic exercises.
+Desenvolvido por **Matheus** como parte dos exercícios de lógica de programação.
